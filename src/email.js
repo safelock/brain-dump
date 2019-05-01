@@ -1,11 +1,11 @@
-const validateEmail = email => {
-  if (!email.includes("@")) {
-    return false
+const validateEmail = (email) => {
+  if (!email.includes('@')) {
+    return false;
   }
-  if (!email.includes(".")) {
-    return false
+  if (!email.includes('.')) {
+    return false;
   }
-  return true
-}
+  return true;
+};
 
-module.exports = validateEmail
+module.exports = validateEmail;
